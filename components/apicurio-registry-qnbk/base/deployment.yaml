@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: apicurio-registry-qnbk
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:c122dc7fd6ef9b20181ca700248cfb4f992b8e6697846e44c90c81a56cdca17a
+      - image: quay.io/redhat-appstudio/user-workload@sha256:df5f654484c60e359763fb97157f808251a54277ab262ca640cd78a6b1c470ea
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
